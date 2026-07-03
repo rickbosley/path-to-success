@@ -1,0 +1,33 @@
+/* CSS BY Rick Bosley */
+
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ROOT VARIABLES */
+:root {
+    /* Colors */
+    --teal: #4CA7C0;
+    --purple: #484FB7;
+    --lavender: #6B8FE7;
+    --yellow: #E9BB57;
+    --pink: #D9526F;
+    --dark-gray: #1E1E1E;
+    --white: #ffffff;
+
+    /* Fonts */
+    --font-heading: "Kavoon", serif;
+    --font-body: "Inter", sans-serif;
+
+    /* Layout */
+    --max-width: 450px;
+    --padding: 1.25rem;
+}
+
+/* GLOBAL STYLES (mobile first/small) */
