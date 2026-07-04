@@ -103,9 +103,11 @@ main {
 }
 
 nav {
+    display: inline-block;
     text-align: center;
     background-color: var(--yellow);
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
 }
 
 h2 {
@@ -132,6 +134,7 @@ ul {
 }
 
 li {
+    text-align: center;
     font-family: var(--font-body);
     font-weight: bold;
     color: var(--dark-gray);
@@ -145,6 +148,7 @@ nav li {
     margin: 10px auto;
     height: 50px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 h3 {
