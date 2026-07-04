@@ -108,19 +108,7 @@ h2 {
     color: var(--white);
     margin-bottom: 10px;
     margin-left: 10px;
-    margin-top: 15px;
-}
-
-ul {
-    display: grid;
-    align-items: center;
-}
-
-li {
-    text-align: center;
-    font-family: var(--font-body);
-    font-weight: bold;
-    color: var(--dark-gray);
+    margin-top: 8px;
 }
 
 nav {
@@ -177,26 +165,62 @@ h3 {
 div {
     background-color: var(--white);
     border-radius: 8px;
-    padding: 1rem;
+    padding: 1.5rem;
     margin: 1.5rem;
     color: var(--dark-gray);
 }
 
 p {
-    font-size: 1em;
+    font-size: 1.15em;
+    line-height: 1.5;
 }
 
 #why {
     background-color: var(--pink);
+    padding: 10px 15px;
+}
+
+#why h2 {
+    margin-top: 5px; 
+    margin-left: 0;
+    margin-bottom: 8px;
+    color: var(--white);
 }
 
 #why ul {
+    display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 10px; 
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 450px;
 }
 
 #why li {
     border-radius: 8px;
     font-size: 1.15em;
+    font-family: var(--font-body);
+    font-weight: bold;
+    color: var(--dark-gray);
+    text-align: center;
+    padding: 30px 15px;
+}
+
+#why li:nth-child(1) {
+    background-color: var(--teal);
+}
+
+#why li:nth-child(2) {
+    background-color: var(--lavender);
+}
+
+#why li:nth-child(3) {
+    background-color: var(--yellow);
+}
+
+#why li:nth-child(4) {
+    background-color: var(--white);
 }
 
 #prices {
