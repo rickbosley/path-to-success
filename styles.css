@@ -158,10 +158,11 @@ h3 {
 }
 
 div {
-    margin: 15px auto;
     background-color: var(--white);
-    border-radius: 10px;
-    text-align: left;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1.5rem;
+    color: var(--dark-gray);
 }
 
 #why {
