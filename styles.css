@@ -158,6 +158,19 @@ div {
     text-align: left;
 }
 
+#why {
+    background-color: var(--pink);
+}
+
+#why ul {
+    grid-template-columns: 1fr 1fr;
+}
+
+#why li {
+    border-radius: 8px;
+    font-size: 1.15em;
+}
+
 #prices {
     display: grid;
     align-items: center;
@@ -179,7 +192,7 @@ th {
 
 td {
     border: 2px solid var(--yellow);
-    background-color: white;
+    background-color: var(--white);
     padding: 15px;
 }
 
@@ -190,17 +203,28 @@ h4 {
     font-weight: bold;
 }
 
-#why {
+#first-step{
+    display: grid;
+    align-items: center;
+    max-width: 450px;
     background-color: var(--pink);
 }
 
-#why ul {
-    grid-template-columns: 1fr 1fr;
+#first-step p {
+    color: var(--white);
+    line-height: 1.5;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-#why li {
-    border-radius: 8px;
-    font-size: 1.15em;
+#first-step button {
+    display: flex;
+    margin: 0 auto;
+    background-color: var(--white);
+    font-family: var(--font-body);
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
 }
 
 footer {
@@ -219,6 +243,6 @@ footer p {
 }
 
 footer a {
-    color: white;
+    color: var(--white);
     text-decoration: underline;
 }
