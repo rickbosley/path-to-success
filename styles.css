@@ -102,14 +102,6 @@ main {
     margin: 0 auto;
 }
 
-nav {
-    display: inline-block;
-    text-align: center;
-    background-color: var(--yellow);
-    padding-top: 10px;
-    padding-bottom: 0px;
-}
-
 h2 {
     font-family: var(--font-heading);
     font-size: 2em;
@@ -117,15 +109,6 @@ h2 {
     margin-bottom: 10px;
     margin-left: 10px;
     margin-top: 15px;
-}
-
-nav h2 {
-    font-size: 1.5em;
-    font-style: italic;
-    font-weight: bold;
-    font-family: var(--font-body);
-    color: var(--dark-gray);
-    text-transform: uppercase;
 }
 
 ul {
@@ -140,15 +123,45 @@ li {
     color: var(--dark-gray);
 }
 
+nav {
+    display: block;
+    width: var(--max-width);
+    background-color: var(--yellow);
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav h2 {
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: bold;
+    font-family: var(--font-body);
+    text-transform: uppercase;
+    color: var(--dark-gray);
+    margin: 0 0 8px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 nav li {
+    margin: 4px 15px;   
+    padding: 0;         
+    background: none;   
+}
+
+nav li a {
+    display: block;
+    background-color: var(--white); 
     color: var(--purple);
-    background-color: var(--white);
-    max-width: 420px;
-    align-items: center;
-    margin: 10px auto;
-    height: 50px;
+    font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
+    padding: 14px;      
+    margin: 0;          
 }
 
 h3 {
@@ -167,6 +180,10 @@ div {
     padding: 1rem;
     margin: 1.5rem;
     color: var(--dark-gray);
+}
+
+p {
+    font-size: 1em;
 }
 
 #why {
@@ -235,6 +252,15 @@ h4 {
     background-color: var(--white);
     font-family: var(--font-body);
     font-weight: bold;
+    font-size: 1.15em;
+    text-transform: uppercase;
+    width: 380px;
+    height: 65px;
+    border-radius: 15px;
+    box-shadow: 7px 7px 5px black;
+    border: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     align-items: center;
     justify-content: center;
 }
