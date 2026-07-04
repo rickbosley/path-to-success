@@ -140,6 +140,8 @@ li {
 nav li {
     color: var(--purple);
     background-color: var(--white);
+    max-width: 420px;
+    align-items: center;
     margin: 10px auto;
     height: 50px;
     text-transform: uppercase;
