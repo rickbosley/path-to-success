@@ -122,16 +122,19 @@ nav h2 {
     color: var(--dark-gray);
 }
 
+ul {
+    display: grid;
+    align-items: center;
+}
+
 li {
     font-family: var(--font-body);
+    font-weight: bold;
     color: var(--dark-gray);
 }
 
 nav li {
-    display: grid;
-    align-items: center;
     color: var(--purple);
-    font-weight: bold;
     background-color: var(--white);
     margin: 10px auto;
     height: 50px;
@@ -148,11 +151,56 @@ h3 {
     margin-top: 10px;
 }
 
+div {
+    margin: 15px auto;
+    background-color: var(--white);
+    border-radius: 10px;
+    text-align: left;
+}
+
+#prices {
+    display: grid;
+    align-items: center;
+    margin-bottom: 10px;
+}
+table {
+    font-family: var(--font-body);
+    border: 2px solid var(--yellow);
+    max-width: 350px;
+    margin: auto;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--yellow);
+    padding: 15px;
+}
+
+td {
+    border: 2px solid var(--yellow);
+    background-color: white;
+    padding: 15px;
+}
+
 h4 {
     font-family: var(--font-body);
     font-size: 1.15em;
     color: var(--purple);
     font-weight: bold;
+}
+
+#why {
+    background-color: var(--pink);
+}
+
+#why ul {
+    grid-template-columns: 1fr 1fr;
+}
+
+#why li {
+    border-radius: 8px;
+    font-size: 1.15em;
 }
 
 footer {
